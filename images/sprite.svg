@@ -1,0 +1,9 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 22" id="ic_arr_hor">
+    <path d="M11.082 1.53467L1.70447 10.9122L11.082 20.2898" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 22" id="ic_close">
+    <rect x="1.79492" y="0.283249" width="27.07" height="2.53782" transform="rotate(45 1.79492 0.283249)" fill="currentColor"></rect>
+    <rect x="20.9355" y="2.43774" width="27.07" height="2.53782" transform="rotate(135 20.9355 2.43774)" fill="currentColor"></rect>
+  </symbol>
+</svg>

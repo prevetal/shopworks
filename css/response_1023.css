@@ -1,0 +1,1080 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 64px;
+        --font_size_title_small: 40px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        font-size: 24px;
+
+        height: 60px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 26px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 24px 24px 24px 10px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.fixed
+    {
+        width: 100%;
+    }
+
+
+    header.light .logo img
+    {
+        height: 48px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 26px;
+        line-height: 36px;
+
+        width: 560px;
+        margin-top: 80px;
+    }
+
+
+    .page_head .desc span
+    {
+        font-size: 14px;
+
+        min-width: 140px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .agree
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: auto;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-bottom: 120px;
+    }
+
+
+    .first_section .categories
+    {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+
+    .first_section .info
+    {
+        position: relative;
+
+        margin-top: 64px;
+        padding: 0;
+
+        background: none;
+    }
+
+
+    .first_section .info .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin: -24px -24px -40px;
+        padding: 24px 24px 40px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .first_section .info .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .first_section .info .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .first_section .info .row > *
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        display: inline-block;
+
+        width: 150px;
+        max-width: none;
+        height: 150px;
+        margin: 0;
+        padding: 20px 21px;
+
+        vertical-align: top;
+        white-space: normal;
+
+        border-radius: 15px;
+        box-shadow: 0 25px 40px 0 rgba(0, 0, 0, .05);
+
+        scroll-snap-align: start;
+    }
+
+    .first_section .info .row > *:nth-child(1)
+    {
+        background: #53ccc4;
+    }
+
+    .first_section .info .row > *:nth-child(3)
+    {
+        background: #6263a3;
+    }
+
+    .first_section .info .row > *:nth-child(5)
+    {
+        background: #1d8e9d;
+    }
+
+    .first_section .info .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .first_section .info .item span
+    {
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 26px;
+
+        display: block;
+
+        margin-bottom: 13px;
+
+        letter-spacing: -.93px;
+    }
+
+
+    .first_section .info .sep
+    {
+        display: none;
+    }
+
+
+    .first_section .words
+    {
+        font-size: 32px;
+        line-height: 40px;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+
+    .first_section .words .swiper-slide div
+    {
+        padding-right: 72px;
+    }
+
+
+    .first_section .words .swiper-slide div:after
+    {
+        right: 30px;
+
+        width: 12px;
+        height: 12px;
+
+        border: 2px solid #53ccc4;
+        border-radius: 50%;
+    }
+
+
+
+    /*---------------------
+        Mob. categories
+    ---------------------*/
+    .mob_categories
+    {
+        display: block;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .desc
+    {
+        font-size: 26px;
+        line-height: 36px;
+
+        width: 560px;
+        margin-top: 80px;
+    }
+
+
+    .team .desc span
+    {
+        font-size: 14px;
+
+        min-width: 140px;
+    }
+
+
+    .team .row
+    {
+        margin-top: 80px;
+        margin-bottom: -48px;
+    }
+
+
+    .team .row > *
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .team .person .photo
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+    .team .person .post
+    {
+        font-size: 14px;
+        line-height: 130%;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Feedback btn
+    ------------------*/
+    .feedback_btn .btn
+    {
+        font-size: 18px;
+
+        width: 140px;
+        height: 144px;
+        padding-bottom: 16px;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form .data
+    {
+        padding: 0;
+    }
+
+
+    .feedback_form .title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .feedback_form .form .agree
+    {
+        width: 268px;
+        margin-top: 0;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .block_title
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .projects .tabs
+    {
+        display: none;
+    }
+
+    .projects .mob_tabs
+    {
+        display: block;
+    }
+
+
+    .projects .tabs > *
+    {
+        margin: 0;
+    }
+
+
+    .projects .tabs .btn
+    {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: normal;
+
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+        padding: 8px 12px;
+
+        vertical-align: top;
+        text-decoration: none;
+
+        color: #8f959e;
+        border-radius: 20px;
+        background: #f7f7f7;
+
+        scroll-snap-align: start;
+    }
+
+    .projects .tabs .btn + .btn
+    {
+        margin-left: 6px;
+    }
+
+
+    .projects .tabs .btn:hover,
+    .projects .tabs .btn.active
+    {
+        text-decoration: none;
+    }
+
+
+    .projects .tabs .btn.active
+    {
+        color: #fff;
+        background: linear-gradient(270deg, #4748ab 0%, #6263a3 100%);
+        box-shadow: 0 5px 30px 0 rgba(98, 99, 163, .40);
+    }
+
+
+
+    .projects .project .info
+    {
+        padding: 20px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .projects .project .desc
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .desc
+    {
+        font-size: 26px;
+        line-height: 36px;
+
+        width: 560px;
+    }
+
+
+    .our_approach .desc span
+    {
+        font-size: 14px;
+
+        min-width: 140px;
+    }
+
+
+
+    /*----------------------
+        Results oriented
+    ----------------------*/
+    .results_oriented .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 28px;
+        padding-bottom: 15px;
+    }
+
+
+    .results_oriented .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .results_oriented .swiper
+    {
+        padding-bottom: 27px;
+    }
+
+
+    .results_oriented .swiper-slide
+    {
+        width: 205px;
+    }
+
+
+    .results_oriented .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .results_oriented .item .thumb
+    {
+        margin-bottom: 0;
+        padding: 20px;
+
+        background: #fff;
+    }
+
+
+    .results_oriented .item .name
+    {
+        padding: 20px;
+
+        border-radius: 0 0 20px 20px;
+        background: #fff;
+        box-shadow: 0 25px 40px rgba(0, 0, 0, .05);
+    }
+
+
+
+    /*-----------------
+        Rationality
+    -----------------*/
+    .rationality .title
+    {
+        font-size: 28px;
+
+        width: 100%;
+        margin-bottom: 28px;
+        margin-left: 0;
+    }
+
+
+    .rationality .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .rationality .swiper
+    {
+        padding-bottom: 27px;
+    }
+
+
+    .rationality .swiper-slide
+    {
+        width: 205px;
+    }
+
+
+    .rationality .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .rationality .item .thumb
+    {
+        margin-bottom: 0;
+        padding: 20px;
+
+        background: #fff;
+    }
+
+
+    .rationality .item .name
+    {
+        padding: 20px;
+
+        border-radius: 0 0 20px 20px;
+        background: #fff;
+        box-shadow: 0 25px 40px rgba(0, 0, 0, .05);
+    }
+
+
+
+    /*-----------------------
+        Want informartion
+    -----------------------*/
+    .want_informartion .title
+    {
+        font-size: 32px;
+    }
+
+
+    .want_informartion .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .block_title
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(20% - 20px);
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .project_name
+    {
+        font-size: 32px;
+
+        margin-bottom: 23px;
+        padding-bottom: 15px;
+    }
+
+
+    .project_info .project_desc
+    {
+        font-size: 22px;
+
+        width: 440px;
+        margin-bottom: 40px;
+    }
+
+
+    .project_info .data + .data
+    {
+        margin-top: 80px;
+    }
+
+
+    .project_info .data .desc,
+    .project_info .data .desc.big,
+    .project_info .data .desc.biggest,
+    .project_info .data .desc.big2
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 280px;
+    }
+
+    .project_info .data .desc > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .project_info .data .image,
+    .project_info .data .image.big
+    {
+        width: calc(100% - 304px);
+        height: 360px;
+    }
+
+
+
+    /*---------------------
+        Project gallery
+    ---------------------*/
+    .project_gallery .wheelSlider-container
+    {
+        width: 560px;
+    }
+
+
+    .project_gallery .wheelSlider-container .slide
+    {
+        height: 404px;
+    }
+
+
+    .wheelSlider-container .slide.next
+    {
+        margin-left: -148px;
+    }
+
+    .wheelSlider-container .slide.prev
+    {
+        margin-left: 148px;
+    }
+
+
+
+    /*------------------
+        Cookie panel
+    ------------------*/
+    .cookie_panel
+    {
+        display: none;
+
+        padding: 74px 24px 28px;
+    }
+
+
+    .cookie_panel .close_btn
+    {
+        top: 24px;
+    }
+
+
+    .cookie_panel .text
+    {
+        width: 100%;
+    }
+
+
+    .cookie_panel .btns
+    {
+        width: 100%;
+        margin-top: 24px;
+        margin-right: 0;
+    }
+
+
+    .cookie_panel .btns .btn
+    {
+        font-size: 14px;
+        line-height: 100%;
+
+        padding: 15px;
+
+        border-radius: 20px;
+    }
+
+
+    .cookie_panel .btns .agree_btn
+    {
+        color: var(--text_color);
+        border-color: #fff;
+        background: #fff;
+    }
+
+
+    .cookie_panel .btns .settings_btn
+    {
+        border-color: #6263a3;
+        background: #6263a3;
+        box-shadow: 0 15px 30px 0 rgba(98, 99, 163, .60);
+    }
+
+
+
+    /*---------------------
+        Mob. cookie btn
+    ---------------------*/
+    .mob_cookie_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*----------------------
+        Privacy settings
+    ----------------------*/
+    .privacy_settings
+    {
+        padding: 0;
+    }
+
+
+    .privacy_settings .close_btn
+    {
+        right: 60px;
+
+        display: flex;
+    }
+
+
+    .privacy_settings .data
+    {
+        width: 100%;
+        margin: auto 0 0;
+        padding: 40px 60px;
+
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        background: #000;
+    }
+
+
+    .privacy_settings .info .scroll
+    {
+        overflow: visible;
+
+        width: 100%;
+        max-height: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .privacy_settings .info .title
+    {
+        font-size: 26px;
+        line-height: 100%;
+
+        margin-bottom: 24px;
+
+        letter-spacing: 0;
+
+        color: currentColor;
+    }
+
+
+    .privacy_settings .info .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .privacy_settings .items
+    {
+        margin-top: 40px;
+
+        border-color: currentColor;
+    }
+
+
+    .privacy_settings .items > * + *
+    {
+        border-color: currentColor;
+    }
+
+
+    .privacy_settings .items .status
+    {
+        font-size: 16px;
+    }
+
+
+    .privacy_settings .items .toggle_checkbox .check
+    {
+        background: #fff;
+    }
+
+
+    .privacy_settings .items .toggle_checkbox .check:before
+    {
+        background: #000;
+    }
+
+
+    .privacy_settings .btns
+    {
+        margin-top: 32px;
+    }
+
+
+    .privacy_settings .btns .btn
+    {
+        font-size: 14px;
+        line-height: 100%;
+
+        width: calc(50% - 12px);
+        padding: 15px;
+
+        border-radius: 20px;
+    }
+
+    .privacy_settings .btns .btn.violet
+    {
+        padding: 16px;
+
+        color: #000;
+        background: #fff;
+        box-shadow: none;
+    }
+
+    .privacy_settings .btns .btn + .btn
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 22px;
+    }
+
+
+    .articles .article .date
+    {
+        margin-top: 8px;
+    }
+
+
+    .articles .article .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Article head
+    ------------------*/
+    .article_head
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .pre_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 23px;
+        padding-bottom: 15px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 28px;
+    }
+
+
+    .article_info .text_block .columns
+    {
+        column-gap: 24px;
+        column-count: 2;
+    }
+
+
+    .article_info .source
+    {
+        margin-top: 48px;
+    }
+
+
+    .article_info .subscribe
+    {
+        position: relative;
+        right: 0;
+
+        width: 100%;
+        margin-top: 48px;
+        padding: 40px 24px;
+    }
+
+
+    .article_info .subscribe .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .article_info .subscribe .submit
+    {
+        padding-top: 24px;
+    }
+
+
+    .article_info .subscribe .close_btn
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 28px 0 24px;
+    }
+
+
+
+    footer .copyright
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    footer .contacts
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    footer .menu
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-bottom: 32px;
+    }
+}

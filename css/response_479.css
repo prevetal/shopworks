@@ -1,0 +1,624 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 37px;
+        --font_size_title_small: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 65px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        font-size: 14px;
+
+        height: 47px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        width: 75px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 68px;
+        padding-top: 117px;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+
+    .page_head .desc span
+    {
+        font-size: 9px;
+
+        min-width: 100px;
+        padding: 0 10px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 117px;
+        padding-bottom: 85px;
+    }
+
+
+
+    .first_section .info .row
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: -20px -20px -40px;
+        padding: 20px 20px 40px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .first_section .info .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    .first_section .words
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+
+    .first_section .words .swiper-slide div
+    {
+        padding-right: 28px;
+    }
+
+
+    .first_section .words .swiper-slide div:after
+    {
+        right: 10px;
+
+        width: 8px;
+        height: 8px;
+    }
+
+
+
+    /*------------------
+        Feedback btn
+    ------------------*/
+    .feedback_btn .btn
+    {
+        font-size: 13px;
+
+        width: 95px;
+        height: 98px;
+        padding-bottom: 8px;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        margin-bottom: 32px;
+
+        text-align: left;
+    }
+
+
+    .feedback_form .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .tabs
+    {
+        width: calc(100% + 40px);
+        margin: -20px -20px 0;
+        padding: 20px 20px 40px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .projects .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .projects .project .info
+    {
+        margin-top: 9px;
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+
+        letter-spacing: -.6px;
+        text-transform: none;
+    }
+
+
+    .projects .project .desc
+    {
+        font-size: 12px;
+        line-height: 130%;
+
+        margin-top: 10px;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .desc
+    {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+
+
+    /*----------------------
+        Results oriented
+    ----------------------*/
+    .results_oriented .title
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+
+        padding: 0;
+
+        letter-spacing: -.6px;
+
+        border: none;
+    }
+
+
+    .results_oriented .desc
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        margin-bottom: 40px;
+    }
+
+
+    .results_oriented .item
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        width: 205px;
+        min-height: 310px;
+    }
+
+
+
+    /*-----------------
+        Rationality
+    -----------------*/
+    .rationality .title
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+
+        padding: 0;
+
+        letter-spacing: -.6px;
+
+        border: none;
+    }
+
+
+    .rationality .desc
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        margin-bottom: 40px;
+    }
+
+
+    .rationality .item
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        width: 205px;
+        min-height: 310px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .mob
+    {
+        padding: 40px 20px;
+    }
+
+
+    .clients .row
+    {
+        margin-bottom: -36px;
+        margin-left: -20px;
+    }
+
+
+    .clients .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 36px;
+        margin-left: 20px;
+    }
+
+
+
+    /*-----------------------
+        Mob. project info
+    -----------------------*/
+    .mob_project_info .description
+    {
+        padding: 0 10px;
+    }
+
+
+    .mob_project_info .description .text
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*---------------------
+        Mob. cookie btn
+    ---------------------*/
+    .mob_cookie_btn
+    {
+        bottom: 20px;
+        left: 20px;
+    }
+
+
+
+    /*------------------
+        Cookie panel
+    ------------------*/
+    .cookie_panel
+    {
+        padding: 74px 20px 28px;
+    }
+
+
+    .cookie_panel .text
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+    }
+
+
+    .cookie_panel .btns
+    {
+        margin-top: 47px;
+    }
+
+
+    .cookie_panel .btns .btn
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+    .cookie_panel .btns .btn + .btn
+    {
+        margin-top: 15px;
+    }
+
+
+    .cookie_panel .btns .btn.full_w
+    {
+        order: 1;
+
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+
+
+    /*----------------------
+        Privacy settings
+    ----------------------*/
+    .privacy_settings .close_btn
+    {
+        top: 24px;
+        right: 20px;
+    }
+
+
+    .privacy_settings .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .privacy_settings .logo img
+    {
+        height: 32px;
+    }
+
+
+    .privacy_settings .info .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .privacy_settings .info .desc
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 129.5%;
+    }
+
+
+    .privacy_settings .items
+    {
+        margin-top: 32px;
+    }
+
+
+    .privacy_settings .items .head .icon
+    {
+        top: 28px;
+        bottom: auto;
+    }
+
+
+    .privacy_settings .items .name
+    {
+        font-size: 12px;
+        line-height: 129.5%;
+
+        max-width: calc(100% - 68px);
+    }
+
+
+    .privacy_settings .items .status
+    {
+        font-size: 12px;
+        line-height: 129.5%;
+
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: right;
+    }
+
+
+    .privacy_settings .items .desc
+    {
+        padding: 3px 19px 19px;
+    }
+
+
+    .privacy_settings .btns .btn
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .areas .item
+    {
+        padding: 31px 19px 19px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .subscribe .form .input
+    {
+        height: 48px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .desc
+    {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+
+
+    /*-----------------------
+        Want informartion
+    -----------------------*/
+    .want_informartion .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .want_informartion .desc
+    {
+        font-size: 12px;
+
+        margin-top: 20px;
+    }
+
+
+    .want_informartion .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        font-size: 10px;
+        line-height: 130%;
+
+        width: 190px;
+        max-width: 100%;
+    }
+
+
+
+    footer .copyright
+    {
+        font-size: 10px;
+        line-height: 22px;
+
+        left: 20px;
+    }
+}

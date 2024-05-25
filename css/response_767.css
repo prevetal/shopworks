@@ -1,0 +1,1204 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 48px;
+        --font_size_title_small: 32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*-----------------
+        Block title
+    -----------------*/
+    .block_title
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        font-size: 20px;
+
+        height: 52px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        min-height: 78px;
+        padding: 20px 76px 20px 0;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 0;
+
+        width: 38px;
+        height: 38px;
+
+        transition: .2s linear;
+
+        color: #fff;
+        border-radius: 50%;
+        background: var(--text_color);
+    }
+
+
+    .accordion_item .head .icon:before
+    {
+        width: 16px;
+    }
+
+    .accordion_item .head .icon:after
+    {
+        height: 16px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 8px 0 24px;
+    }
+
+
+    .accordion_item.active
+    {
+        position: relative;
+        z-index: 3;
+
+        border-color: #53ccc4;
+    }
+
+    .accordion_item.active .head .icon
+    {
+        background: #53ccc4;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: block;
+    }
+
+
+    header.fixed
+    {
+        padding: 16px 0;
+
+        border-radius: 0 0 30px 30px;
+    }
+
+
+    header.fixed .logo img
+    {
+        height: 44px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 80px;
+        padding-top: 124px;
+    }
+
+
+    .page_head .mob_title
+    {
+        display: block;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 30px;
+
+        width: 100%;
+        margin-top: 68px;
+    }
+
+
+    .page_head .desc br
+    {
+        display: none;
+    }
+
+
+    .page_head .desc span
+    {
+        font-size: 10px;
+        font-weight: 300;
+
+        min-width: 120px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .label
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+    .text_block .columns > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .text_block img.left
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+
+    .text_block img.right
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .text_block img.right + ul,
+    .text_block img.left + ul
+    {
+        width: 100%;
+    }
+
+
+    .text_block .clear
+    {
+        display: none;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 20px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 7px;
+        left: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section.bg:before
+    {
+        display: none;
+    }
+
+
+    .first_section .title
+    {
+        line-height: 100%;
+
+        padding-top: 0;
+
+        letter-spacing: -.74px;
+    }
+
+
+    .first_section .categories
+    {
+        display: none;
+    }
+
+
+    .first_section .info
+    {
+        margin-top: 143px;
+    }
+
+
+    .first_section .words
+    {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+
+    .first_section .words .swiper-slide div:after
+    {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .first_section .mob_image
+    {
+        display: block;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .mob_title
+    {
+        display: block;
+    }
+
+
+    .team .desc
+    {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 30px;
+
+        width: 100%;
+        margin-top: 68px;
+    }
+
+
+    .team .desc br
+    {
+        display: none;
+    }
+
+
+    .team .desc span
+    {
+        font-size: 10px;
+        font-weight: 300;
+
+        min-width: 120px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .team .row
+    {
+        margin-top: 68px;
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+
+    .team .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+    .team .person .photo
+    {
+        margin-bottom: 16px;
+        padding-bottom: 119.230%;
+    }
+
+
+    .team .person .name
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+
+    .team .person .post
+    {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 130%;
+    }
+
+
+
+    /*------------------
+        Feedback btn
+    ------------------*/
+    .feedback_btn .btn
+    {
+        font-size: 15px;
+
+        width: 112px;
+        height: 115px;
+        padding-bottom: 12px;
+    }
+
+
+
+    /*-------------------
+        Feedback form
+    -------------------*/
+    .feedback_form
+    {
+        width: 100%;
+        padding: 0 0 48px;
+
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0 25px 40px 0 rgba(0, 0, 0, .05);
+    }
+
+
+    .feedback_form .title
+    {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+
+        padding: 0;
+
+        text-align: center;
+        text-transform: none;
+
+        border: none;
+    }
+
+
+    .feedback_form .form
+    {
+        --form_border_color: #f7f7f7;
+        --form_focus_color: #f7f7f7;
+        --form_bg_color: #f7f7f7;
+        --form_placeholder_color: #8f959e;
+    }
+
+
+    .feedback_form .form .line
+    {
+        position: relative;
+
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
+    .feedback_form .form .input
+    {
+        font-size: 16px;
+
+        height: 56px;
+        padding: 0 21px;
+
+        color: #000;
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+
+    .feedback_form .form .submit
+    {
+        padding: 40px 0 0;
+    }
+
+
+    .feedback_form .form .submit_btn
+    {
+        width: 100%;
+
+        border-radius: 20px;
+    }
+
+
+    .feedback_form .form .agree
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .mob_title
+    {
+        display: block;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -28px;
+    }
+
+    .projects .row > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .projects .project
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .projects .project .info
+    {
+        position: relative;
+
+        margin-top: 16px;
+        padding: 0;
+
+        opacity: 1;
+        color: var(--text_color);
+    }
+
+
+    .projects .project .name
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .projects .project .desc
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .desc
+    {
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 30px;
+
+        width: 100%;
+    }
+
+
+    .our_approach .desc br
+    {
+        display: none;
+    }
+
+
+    .our_approach .desc span
+    {
+        font-size: 10px;
+        font-weight: 300;
+
+        min-width: 120px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+
+    /*----------------------
+        Results oriented
+    ----------------------*/
+    .results_oriented .title
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 100%;
+
+        margin-bottom: 20px;
+
+        letter-spacing: -.13px;
+        text-transform: none;
+    }
+
+
+    .results_oriented .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-----------------
+        Rationality
+    -----------------*/
+    .rationality .title
+    {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 100%;
+
+        margin-bottom: 20px;
+
+        letter-spacing: -.13px;
+        text-transform: none;
+    }
+
+
+    .rationality .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-----------------------
+        Want informartion
+    -----------------------*/
+    .want_informartion .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        letter-spacing: -.6px;
+    }
+
+
+    .want_informartion .desc
+    {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 129.5%;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .cont
+    {
+        padding: 0;
+    }
+
+
+    .clients .mob_title
+    {
+        display: block;
+    }
+
+
+    .clients .row
+    {
+        display: none;
+
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .clients .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .clients .mob
+    {
+        display: block;
+    }
+
+    .clients .mob .row
+    {
+        display: flex;
+    }
+
+
+    .clients .item,
+    .clients .item:hover
+    {
+        height: auto;
+        padding: 0;
+
+        border: none;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .clients .item:hover img
+    {
+        display: block;
+    }
+
+
+
+    /*------------------
+        Project head
+    ------------------*/
+    .project_head
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info
+    {
+        display: none;
+    }
+
+
+
+    /*---------------------
+        Project gallery
+    ---------------------*/
+    .project_gallery
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------------
+        Mob. project info
+    -----------------------*/
+    .mob_project_info
+    {
+        display: block;
+    }
+
+
+
+    /*----------------------
+        Privacy settings
+    ----------------------*/
+    .privacy_settings .close_btn
+    {
+        right: 24px;
+    }
+
+
+    .privacy_settings .data
+    {
+        padding: 40px 24px 24px;
+    }
+
+
+    .privacy_settings .info .title
+    {
+        font-size: 24px;
+    }
+
+
+    .privacy_settings .items .head
+    {
+        padding: 19px 19px 19px 47px;
+    }
+
+
+    .privacy_settings .items .head .icon
+    {
+        left: 20px;
+    }
+
+
+    .privacy_settings .items .name
+    {
+        font-size: 14px;
+
+        top: 0;
+    }
+
+
+    .privacy_settings .items .status
+    {
+        font-size: 14px;
+
+        top: 0;
+    }
+
+
+    .privacy_settings .items .desc
+    {
+        padding: 4px 23px 23px;
+    }
+
+
+    .privacy_settings .btns .btn
+    {
+        width: 100%;
+    }
+
+    .privacy_settings .btns .btn + .btn
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .missions_affect
+    {
+        width: 100%;
+        padding: 0;
+
+        border: none;
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .service_info .missions_affect .title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .service_info .missions_affect .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .service_info .missions_affect .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .service_info .missions_affect .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .service_info .missions_affect .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+
+        scroll-snap-align: start;
+    }
+
+
+    .service_info .missions_affect .row > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+    .service_info .missions_affect .sep
+    {
+        margin-top: 67px;
+        margin-bottom: 67px;
+    }
+
+
+    .service_info .missions_affect .item
+    {
+        position: relative;
+
+        width: 150px;
+        min-height: 150px;
+        padding: 19px 11px;
+
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+
+
+
+    .service_info .areas
+    {
+        margin: 40px 0;
+    }
+
+
+    .service_info .areas .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .service_info .areas .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .service_info .areas .item
+    {
+        padding: 32px 24px 24px;
+
+        border: 1px solid #f4f4f4;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 25px 40px 0 rgba(0, 0, 0, .03);
+    }
+
+
+    .service_info .areas .item .icon
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .service_info .areas .item .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        text-transform: uppercase;
+    }
+
+
+    .service_info .areas .item .name br
+    {
+        display: none;
+    }
+
+
+    .service_info .areas .item .desc
+    {
+        margin-top: 19px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .articles .article .name br
+    {
+        display: none;
+    }
+
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Article head
+    ------------------*/
+    .article_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .article_head .image
+    {
+        padding-bottom: 135%;
+    }
+
+
+    .article_head .swiper-horizontal > .swiper-pagination-bullets,
+    .article_head .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .article_head .swiper-pagination-custom,
+    .article_head .swiper-pagination-fraction
+    {
+        border-radius: 30px 30px 0 0;
+        background: #fff;
+    }
+
+
+    .article_head .swiper-pagination-bullet
+    {
+        background: linear-gradient(270deg, #4748ab 0%, #6263a3 100%);
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .pre_title
+    {
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 100%;
+
+        margin-bottom: 20px;
+        padding: 0;
+
+        text-align: center;
+        letter-spacing: -.74px;
+
+        border: none;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+
+        width: 100%;
+
+        text-align: center;
+        letter-spacing: -.6px;
+    }
+
+
+    .article_info .data
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 20px 20px 40px 40px;
+
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0 25px 40px 0 rgba(0, 0, 0, .05);
+    }
+
+
+    .article_info .mob_spoler_btn
+    {
+        display: flex;
+    }
+
+
+    .article_info .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+    .article_info .text_block .columns > * ~ *
+    {
+        display: none;
+    }
+
+    .article_info .text_block.show_full .columns > * ~ *
+    {
+        display: block;
+    }
+
+
+    .article_info .mob_source
+    {
+        display: block;
+    }
+
+
+    .article_info .source
+    {
+        display: none;
+    }
+
+
+    .article_info .subscribe
+    {
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .article_info .subscribe .submit
+    {
+        padding-top: 4px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-top: 0;
+        padding-bottom: 72px;
+    }
+
+    footer:before
+    {
+        display: none;
+    }
+
+
+
+    footer .logo img
+    {
+        width: 150px;
+    }
+
+
+
+    footer .menu,
+    footer .slogan
+    {
+        display: none;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 50px;
+
+        text-align: left;
+    }
+
+
+
+    footer .copyright
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        position: absolute;
+        bottom: 36px;
+        left: 24px;
+
+        margin: 0;
+    }
+}
