@@ -519,7 +519,7 @@ button
 ------------*/
 header
 {
-    position: relative;
+    position: absolute;
     z-index: 9;
     top: 0;
     right: 0;
@@ -527,34 +527,6 @@ header
 
     width: 100%;
     padding: 17px 0 18px;
-}
-
-
-header.fixed
-{
-    position: fixed;
-
-    width: calc(100% - 60px);
-    margin: 0 auto;
-
-    border-radius: 0 0 40px 40px;
-    background: rgba(255, 255, 255, .8);
-
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
-}
-
-
-header.fixed.absolute
-{
-    width: 100%;
-    margin: 0;
-
-    border-radius: 0 ;
-    background: none;
-
-    -webkit-backdrop-filter: none;
-            backdrop-filter: none;
 }
 
 
@@ -681,6 +653,33 @@ header .mob_menu_btn
     letter-spacing: -.6px;
 
     color: currentColor;
+}
+
+
+header.fixed
+{
+    position: fixed;
+
+    width: calc(100% - 60px);
+    margin: 0 auto;
+
+    color: var(--text_color);
+    border-radius: 0 0 40px 40px;
+    background: rgba(255, 255, 255, .8);
+
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+}
+
+
+header.fixed.light .logo img + img
+{
+    display: none;
+}
+
+header.fixed.light .logo img
+{
+    display: block;
 }
 
 

@@ -321,6 +321,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// Rationality
 	initRationalitySliders()
+
+
+	// Window offset top
+	offsetTop = $(window).scrollTop()
+	console.log(offsetTop)
 })
 
 
@@ -336,10 +341,16 @@ window.addEventListener('resize', e => {
 
 
 window.addEventListener('scroll', e => {
-	// Project page - Header
-	$(window).scrollTop() > 0
-		? $('header.not_default').removeClass('absolute light')
-		: $('header.not_default').addClass('absolute light')
+	// Fix. header
+	$(window).scrollTop() <= offsetTop
+		? $('header').addClass('fixed')
+		: $('header').removeClass('fixed')
+
+	offsetTop = $(window).scrollTop()
+
+	if ($(window).scrollTop() == 0) {
+		$('header').removeClass('fixed')
+	}
 })
 
 
