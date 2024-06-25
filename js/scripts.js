@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	if (words) {
 		new Swiper('.first_section .words .swiper', {
-			loop: false,
+			loop: true,
 			speed: 10000,
 			autoplay: {
 			  delay: 1,
@@ -219,6 +219,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	// Cookie panel
+	setTimeout(() => $('.cookie_panel').fadeIn(200), 2000)
+
 	$('.cookie_panel .close_btn, .cookie_panel .btns .reject_btn, .cookie_panel .btns .agree_btn').click(function(e) {
 		e.preventDefault()
 
@@ -265,14 +267,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	disabledScroll = false
-
-
-	// Subscribe
-	$('.subscribe .close_btn').click(function(e) {
-		e.preventDefault()
-
-		$(this).closest('.subscribe').fadeOut(200)
-	})
 
 
 	// Mob. menu

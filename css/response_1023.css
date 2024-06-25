@@ -84,6 +84,12 @@
     }
 
 
+    .page_head .desc > * + *
+    {
+        margin-top: 24px;
+    }
+
+
     .page_head .desc span
     {
         font-size: 14px;
@@ -491,25 +497,6 @@
     /*----------------------
         Results oriented
     ----------------------*/
-    .results_oriented .title
-    {
-        font-size: 28px;
-        line-height: 32px;
-
-        margin-bottom: 28px;
-        padding-bottom: 15px;
-    }
-
-
-    .results_oriented .desc
-    {
-        font-size: 15px;
-        line-height: 23px;
-
-        margin-bottom: 40px;
-    }
-
-
     .results_oriented .swiper
     {
         padding-bottom: 27px;
@@ -552,27 +539,6 @@
     /*-----------------
         Rationality
     -----------------*/
-    .rationality .title
-    {
-        font-size: 28px;
-
-        width: 100%;
-        margin-bottom: 28px;
-        margin-left: 0;
-    }
-
-
-    .rationality .desc
-    {
-        font-size: 15px;
-        line-height: 23px;
-
-        width: 100%;
-        margin-bottom: 40px;
-        margin-left: 0;
-    }
-
-
     .rationality .swiper
     {
         padding-bottom: 27px;
@@ -1008,38 +974,6 @@
     .article_info .source
     {
         margin-top: 48px;
-    }
-
-
-    .article_info .subscribe
-    {
-        position: relative;
-        right: 0;
-
-        width: 100%;
-        margin-top: 48px;
-        padding: 40px 24px;
-    }
-
-
-    .article_info .subscribe .title
-    {
-        font-size: 18px;
-        line-height: 24px;
-
-        margin-bottom: 24px;
-    }
-
-
-    .article_info .subscribe .submit
-    {
-        padding-top: 24px;
-    }
-
-
-    .article_info .subscribe .close_btn
-    {
-        display: none;
     }
 
 

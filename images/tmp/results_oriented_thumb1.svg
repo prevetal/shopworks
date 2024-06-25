@@ -1,9 +1,9 @@
-<svg width="264" height="321" viewBox="0 0 264 321" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M173.5 319H242C253.046 319 262 310.046 262 299V22C262 10.9543 253.046 2 242 2H22C10.9543 2 2 10.9543 2 22V299C2 310.046 10.9543 319 22 319H91" stroke="black" stroke-width="4"/>
-<rect x="71" y="86" width="122" height="39" rx="3" stroke="black" stroke-width="4"/>
-<circle cx="132" cy="53" r="20" stroke="black" stroke-width="4"/>
-<circle cx="94" cy="206" r="20" stroke="#53CCC4" stroke-width="4"/>
-<circle cx="63" cy="264" r="20" stroke="#53CCC4" stroke-width="4"/>
-<circle cx="190" cy="206" r="20" stroke="#53CCC4" stroke-width="4"/>
-<circle cx="138" cy="269" r="20" stroke="#53CCC4" stroke-width="4"/>
+<svg width="191" height="233" viewBox="0 0 191 233" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M125.667 231.435H170C181.046 231.435 190 222.48 190 211.435V21C190 9.95431 181.046 1 170 1H21C9.9543 1 1 9.95431 1 21V211.435C1 222.48 9.9543 231.435 21 231.435H65.6962" stroke="black" stroke-width="2"/>
+<rect x="50.7036" y="61.6064" width="89.5923" height="29.2577" rx="4" stroke="black" stroke-width="2"/>
+<circle cx="95.5001" cy="38.0724" r="14.9923" stroke="black" stroke-width="2"/>
+<circle cx="67.8771" cy="149.293" r="14.9923" stroke="#53CCC4" stroke-width="2"/>
+<circle cx="45.3424" cy="191.453" r="14.9923" stroke="#53CCC4" stroke-width="2"/>
+<circle cx="137.662" cy="149.293" r="14.9923" stroke="#53CCC4" stroke-width="2"/>
+<circle cx="99.8615" cy="195.089" r="14.9923" stroke="#53CCC4" stroke-width="2"/>
 </svg>

@@ -267,6 +267,11 @@
         left: 0;
     }
 
+    .text_block ul li br
+    {
+        display: none;
+    }
+
 
 
     /*-------------------
@@ -582,58 +587,6 @@
         min-width: 120px;
         padding-right: 10px;
         padding-left: 10px;
-    }
-
-
-
-    /*----------------------
-        Results oriented
-    ----------------------*/
-    .results_oriented .title
-    {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 100%;
-
-        margin-bottom: 20px;
-
-        letter-spacing: -.13px;
-        text-transform: none;
-    }
-
-
-    .results_oriented .desc
-    {
-        font-size: 14px;
-        line-height: 22px;
-
-        margin-bottom: 32px;
-    }
-
-
-
-    /*-----------------
-        Rationality
-    -----------------*/
-    .rationality .title
-    {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 100%;
-
-        margin-bottom: 20px;
-
-        letter-spacing: -.13px;
-        text-transform: none;
-    }
-
-
-    .rationality .desc
-    {
-        font-size: 14px;
-        line-height: 22px;
-
-        margin-bottom: 32px;
     }
 
 
@@ -1129,22 +1082,6 @@
     .article_info .source
     {
         display: none;
-    }
-
-
-    .article_info .subscribe
-    {
-        padding: 0;
-
-        border-radius: 0;
-        background: none;
-        box-shadow: none;
-    }
-
-
-    .article_info .subscribe .submit
-    {
-        padding-top: 4px;
     }
 
 

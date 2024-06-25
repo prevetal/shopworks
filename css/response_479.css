@@ -264,33 +264,27 @@
 
 
 
+    /*---------------
+        Immersion
+    ---------------*/
+    .immersion .row
+    {
+        margin-bottom: -30px;
+    }
+
+
+    .immersion .row > *
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+
+
+
     /*----------------------
         Results oriented
     ----------------------*/
-    .results_oriented .title
-    {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 26px;
-
-        padding: 0;
-
-        letter-spacing: -.6px;
-
-        border: none;
-    }
-
-
-    .results_oriented .desc
-    {
-        font-size: 12px;
-        font-weight: 300;
-        line-height: 129.5%;
-
-        margin-bottom: 40px;
-    }
-
-
     .results_oriented .item
     {
         font-size: 12px;
@@ -306,30 +300,6 @@
     /*-----------------
         Rationality
     -----------------*/
-    .rationality .title
-    {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 26px;
-
-        padding: 0;
-
-        letter-spacing: -.6px;
-
-        border: none;
-    }
-
-
-    .rationality .desc
-    {
-        font-size: 12px;
-        font-weight: 300;
-        line-height: 129.5%;
-
-        margin-bottom: 40px;
-    }
-
-
     .rationality .item
     {
         font-size: 12px;
@@ -554,16 +524,6 @@
 
 
 
-    /*------------------
-        Article info
-    ------------------*/
-    .article_info .subscribe .form .input
-    {
-        height: 48px;
-    }
-
-
-
     /*----------
         Team
     ----------*/
@@ -603,6 +563,12 @@
     /*------------
         Footer
     ------------*/
+    footer .col
+    {
+        width: 100%;
+    }
+
+
     footer .contacts
     {
         font-size: 10px;
