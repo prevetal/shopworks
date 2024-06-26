@@ -325,7 +325,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// Window offset top
 	offsetTop = $(window).scrollTop()
-	console.log(offsetTop)
 })
 
 

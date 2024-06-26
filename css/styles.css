@@ -1806,19 +1806,39 @@ header.fixed.light .logo img
     text-decoration: none;
 
     color: currentColor;
+    border-radius: 20px;
+}
+
+
+.projects .project:before
+{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+    transition: .25s linear;
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    background: #53ccc4;
 }
 
 
 .projects .project .thumb
 {
     position: relative;
-
-    overflow: hidden;
+    z-index: 1;
 
     padding-bottom: 100%;
 
     border-radius: 20px;
-    background: #53ccc4;
 }
 
 
@@ -1834,7 +1854,8 @@ header.fixed.light .logo img
     width: 100%;
     height: 100%;
 
-    transition: opacity .2s linear;
+    transition: transform .2s linear .1s;
+    transform: scale(1.2);
 
     border-radius: inherit;
 
@@ -1852,7 +1873,8 @@ header.fixed.light .logo img
     width: 100%;
     padding: 48px 24px 48px 20px;
 
-    transition: opacity .2s linear;
+    transition: .2s linear;
+    transform: translateY(50px);
 
     opacity: 0;
     color: #fff;
@@ -1882,12 +1904,22 @@ header.fixed.light .logo img
 
 .projects .project:hover .info
 {
+    transition: .25s linear .1s;
+    transform: none;
+
     opacity: 1;
 }
 
-.projects .project:hover .thumb img
+.projects .project:hover:before
 {
-    opacity: 0;
+    width: 200%;
+    height: 200%;
+}
+
+
+.projects .project.animated .thumb img
+{
+    transform: scale(1);
 }
 
 
